@@ -24,6 +24,12 @@ pipeline {
                     echo "python"
                 }
             }
+         stage("test"){
+            steps{
+                dir("practice"){
+                    echo "GIT TEST"
+                }
+            }
         }
     }
 }
