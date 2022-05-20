@@ -24,6 +24,7 @@ pipeline {
                     echo "python"
                 }
             }
+        }
          stage("test"){
             steps{
                 dir("practice"){
