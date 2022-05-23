@@ -25,7 +25,7 @@ pipeline {
                 }
             }
         }
-         stage("test1"){
+         stage("testchange"){
             steps{
                 dir("practice"){
                     echo "GIT TEST"
